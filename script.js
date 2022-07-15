@@ -18,10 +18,10 @@ petSelect.addEventListener("change", () => {
   serviceSelect1.innerHTML = "<p>Service selected: $" + serviceSelect.value + "<p>";
 })
 
-let serviceSelect = document.querySelector("#serviceselect");
+let delieverySelect = document.querySelector("#delieveryselect");
 
 petSelect.addEventListener("change", () => {
   console.log("New Selection!");
-  let serviceSelect1 = document.querySelector("#serviceselect1");
-  serviceSelect1.innerHTML = "<p>Service selected: $" + serviceSelect.value + "<p>";
+  let delieverySelect1 = document.querySelector("#delieveryselect1");
+  delieverySelect1.innerHTML = "<p>Delievery selected: $" + delieveryselect.value + "<p>";
 })
