@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Yash 🍍</title>
+    <title>Yash's Adoption and Service Form</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
 <!--     <link rel="stylesheet" href="styles.css" /> -->
 <!--     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@2/css/all.min.css" /> -->
@@ -49,10 +49,10 @@
           <div class="navbar-end">
             <div class="navbar-item">
               <a class="navbar-item" href="index.html"> Home</a>
-              <a class="navbar-item" href="#adoptionPets"> Pets</a>
-              <a class="navbar-item" href="#adoptionServices"> Services</a>
+              <a class="navbar-item" href="index.html"> Pets</a>
+              <a class="navbar-item" href="index.html"> Services</a>
 
-              <a class="navbar-item" href="#adoptionContact"> Contact us</a>
+              <a class="navbar-item" href="index.html"> Contact us</a>
               <div class="buttons">
                 <a class="button is-primary is-orange">
                   <strong>Adopt NOW!</strong>
@@ -66,9 +66,17 @@
 
     <section class="ad_title">
       <h1 class="title is-1">Welcome to the Adoption Form</h1>
-      <h3 class="subtitle is-5">Please fill out the following to adopt your new pet!</h3>
-    </section>
+      <h3 class="subtitle is-5">Please fill out the following form to adopt your new pet!</h3>
 
+      <a href="pricings.html">
+          <div class="buttons">
+            <button id="buprice" class="button">View Pricings Here</button>
+          </div>
+        </a>
+      
+    </section>
+    
+  <section id="format">
     <section class="adopt">
       <div class="select_pet">
         <p>Select the pet your want to adopt:</p>
@@ -113,13 +121,23 @@
     </section>
 
     <section id="cart">
-      <h1>Your Cart:</h1>
+      <h1 id="c">Your Cart:</h1>
       <p id="petselect1"></p>
       <p id="serviceselect1"></p>
       <p id="delieveryselect1"></p>
       <p>Processing fee: $20</p>
-      <h3 id="total"></h3>
+      <p id="tax"></p>
+      <hr>
+      <h3 id="t">Total: </h3><h3 id="total"></h3>
+
+      <section>
+      <div class="control">
+        <button id="pay" class="button is-primary">PAY</button>
+      </div>
     </section>
+    
+
+  </section>
     
     
     </body>

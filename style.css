@@ -8,13 +8,73 @@ html,body {
 }
 
 .ad_title{
-  margin: 10%;
+  margin: 4% 10% 2% 10%;
 }
 
 .select_pet, .select_service, .select_delivery, .comment{
-  margin: 1% 10%;
+  padding: 2% 10%;
 }
 
 #cart{
-  margin: 10%;
+  padding: 1% 10%;
+  display: flex;
+  flex-direction: column;
+/*   align-items: flex-end; */
+}
+
+#pay{
+  margin: 5% 0%;
+} 
+
+#c{
+  font-weight: bold;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+#t{
+  font-weight: bold;
+}
+
+#map{
+  width: 100%;
+}
+
+#format{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 1% 5% 2% 5%;
+}
+
+hr{
+  background-color: rgb(122, 122, 122);
+}
+
+.contact-section{
+  width: 100%;
+}
+
+#space{
+  margin: 2.5%;
+}
+
+#buprice{
+  background-color: rgb(245, 245, 245);
+  padding: 0% 5%;
+}
+
+#buprice:hover {
+  transition-duration: 0.2s;
+  background-color: rgb(235, 235, 235);
+}
+
+#cl{
+  padding: 5% 3%;
+}
+
+#adopt{
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  margin-bottom: 10%;
 }
